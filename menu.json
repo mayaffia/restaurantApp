@@ -1,0 +1,23 @@
+[
+    {
+        "name": "carbonara",
+        "price": 500,
+        "timeOfCooking": 15,
+        "count": 9,
+        "id": "f5fb9324-c485-409b-8fc7-af196a75ce07"
+    },
+    {
+        "name": "pizza",
+        "price": 300,
+        "timeOfCooking": 10,
+        "count": 9,
+        "id": "e83542ec-100d-4526-949d-5f65c500eac5"
+    },
+    {
+        "name": "pasta",
+        "price": 300,
+        "timeOfCooking": 7,
+        "count": 5,
+        "id": "24040174-f9e5-4117-b4ad-a934566d81a1"
+    }
+]
