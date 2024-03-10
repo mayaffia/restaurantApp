@@ -10,14 +10,14 @@
         "name": "pizza",
         "price": 300,
         "timeOfCooking": 10,
-        "count": 9,
+        "count": 8,
         "id": "e83542ec-100d-4526-949d-5f65c500eac5"
     },
     {
         "name": "pasta",
         "price": 300,
         "timeOfCooking": 7,
-        "count": 5,
+        "count": 2,
         "id": "24040174-f9e5-4117-b4ad-a934566d81a1"
     }
 ]

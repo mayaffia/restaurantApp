@@ -20,7 +20,8 @@ class ConsoleManagerForAdmin(
         println("1 - посмотреть меню")
         println("2 - редактировать меню")
         println("3 - посмотреть статистику")
-        println("4 - выход")
+        println("4 - посмотреть выручку")
+        println("5 - выход")
     }
 
     override suspend fun operationsHandler() {
@@ -42,6 +43,9 @@ class ConsoleManagerForAdmin(
 
                 "3" -> {
                     showStatistics()
+                }
+                "4" -> {
+                    showRevenue()
                 }
 
             }
@@ -250,6 +254,12 @@ class ConsoleManagerForAdmin(
 
         val finishedOrderCount = orders.filter { it.status == OrderStatus.FINISHED }.size
         println("Завершенных заказов - $finishedOrderCount")
+    }
+
+    private fun showRevenue() {
+        val orders = ordersDao.getAllOrders()
+        val revenue = orders.filter { it.paid }.sumOf { it.allDishes.sumOf { it.price } }
+        println("Выручка - $revenue")
     }
 
 }
