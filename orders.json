@@ -1,0 +1,28 @@
+[
+    {
+        "allDishes": [
+            {
+                "name": "pizza",
+                "price": 300,
+                "timeOfCooking": 10,
+                "count": 9,
+                "id": "e83542ec-100d-4526-949d-5f65c500eac5"
+            },
+            {
+                "name": "pasta",
+                "price": 300,
+                "timeOfCooking": 7,
+                "count": 3,
+                "id": "24040174-f9e5-4117-b4ad-a934566d81a1"
+            }
+        ],
+        "userId": "1e02b94f-a818-48f9-9e16-ee24b8ba97f1",
+        "id": "232118ff-429e-4467-bb18-3c9a133ff8ad",
+        "timeOfCooking": 10,
+        "status": "FINISHED",
+        "paid": true,
+        "reviewMark": 5,
+        "review": "cool",
+        "num": 1
+    }
+]
